@@ -64,7 +64,7 @@ Additionally add below permissions in AndroidManifest.xml -
 ```
 
 
-# Start Service
+# Start Cron Job
 To start cron job just execute the below code. Below function takes 2 integer arguments which is hour and minute (the time at which cronjob starts everyday even if the app is closed).
 place this code anywhere where you want to start your task.
 Time range is 0 <= hour <= 23  ,  0 <= minute <= 59 
