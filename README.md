@@ -10,7 +10,7 @@
 
 ## Usage
 
-This package allows you to create cronjob locally in your react-native app. Crojob will get executed everyday at the given time even if the app is closed.
+This package allows you to create cron job locally in your react-native app. The Cron job will get executed everyday at the given time even if the app is closed.
 
 # index.js
 Add the below code in your index.js file.
@@ -65,7 +65,7 @@ Additionally add below permissions in AndroidManifest.xml -
 
 
 # Start Service
-To start cronjob just execute the below code. Below function takes 2 integer arguments which is hour and minute (the time at which cronjob starts everyday even if the app is closed).
+To start cron job just execute the below code. Below function takes 2 integer arguments which is hour and minute (the time at which cronjob starts everyday even if the app is closed).
 place this code anywhere where you want to start your task.
 Time range is 0 <= hour <= 23  ,  0 <= minute <= 59 
 

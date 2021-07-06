@@ -1,7 +1,7 @@
 {
   "name": "react-native-cron-job",
-  "version": "1.0.3",
-  "description": "",
+  "version": "1.0.0",
+  "description": "Cron job for react native app",
   "main": "index.js",
   "files": [
     "README.md",
@@ -13,8 +13,8 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/github_account/react-native-cron-job.git",
-    "baseUrl": "https://github.com/github_account/react-native-cron-job"
+    "url": "git+https://github.com/kathuriyarajat/react-native-cron-job.git",
+    "baseUrl": "https://github.com/kathuriyarajat/react-native-cron-job"
   },
   "keywords": [
     "react-native"
