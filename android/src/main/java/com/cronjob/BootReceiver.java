@@ -49,7 +49,7 @@ public class BootReceiver extends BroadcastReceiver {
                 }
                 currentDate+=minute;
                 currentDate+=":00";
-                DateFormat formatter = new SimpleDateFormat("dd-MM-yyyy hh:mm:ss");
+                DateFormat formatter = new SimpleDateFormat("dd-MM-yyyy HH:mm:ss");
                 Date date = (Date)formatter.parse(currentDate);
                 long serviceStartTime=date.getTime();
                 if(serviceStartTime < System.currentTimeMillis()){
